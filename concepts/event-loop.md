@@ -61,6 +61,7 @@ setInterval(() => {
         console.error("🚨 ALERT: The main thread is blocked! Potential CPU bottleneck.");
     }
 }, 5000);
+```
 
 <p align="center"> <img src="./assets/Figure1.png" alt="Event Loop Architecture" width="700">
 
