@@ -63,7 +63,9 @@ setInterval(() => {
 }, 5000);
 ```
 
-<p align="center"> <img src="../assets/Figure1.png" alt="Event Loop Architecture" width="700">
-
-
-<em align="center">Figure 1: High-level architecture of the Node.js Runtime (V8 + Libuv).</em> </p>
+<p align="center">
+  <br>
+  <img src="./assets/Figure1.png" alt="Event Loop Architecture" width="700">
+  <br>
+  <em>Figure 1: High-level architecture of the Node.js Runtime (V8 + Libuv).</em>
+</p>
