@@ -39,7 +39,6 @@ These are not part of the phases. They run **immediately after any currently exe
     * ✅ **Safe:** Even if recursive, it allows the Event Loop to complete a full tick (handling I/O and timers) before running again.
 
 ### 3. Monitoring "Event Loop Lag"
-* As a Senior Engineer, we don't just write code; we monitor health.
 * **Loop Lag:** The time it takes for the Event Loop to complete one full cycle.
 * **Impact:** High lag (>100ms) means the CPU is blocked by synchronous code (e.g., `JSON.parse` on a large payload), causing high API latency.
 * **Detection:** Use Node.js `perf_hooks` to measure and alert on lag.
